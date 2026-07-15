@@ -165,3 +165,24 @@ node_modules/
 
 .env
 notes.MD
+
+alembic
+alembic/versions
+alembic/env.py
+
+# Auth routes
+auth_routes
+
+# Auth settings
+auth_settings
+
+# User model
+user_model
+
+# Auth schema
+auth_schema
+
+# Test files
+test_shortlink
+test_src
+confest.py
