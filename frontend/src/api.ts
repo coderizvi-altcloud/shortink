@@ -1,7 +1,7 @@
 ﻿import type { HealthStatus, Shortlink, ShortlinkCreate, ShortlinkUpdate } from "./types";
 
-/** Hosted Shortink API (https://shortink-10c51a1f.fastapicloud.dev). */
-export const HOSTED_API_BASE = "https://shortink-10c51a1f.fastapicloud.dev";
+/** Hosted Shortink API - loaded from env var VITE_HOSTED_API_URL. */
+export const HOSTED_API_BASE = import.meta.env.VITE_HOSTED_API_URL as string;
 
 /**
  * - Unset → hosted API (direct).
